@@ -1,0 +1,33 @@
+Vivado Simulator 2018.2
+Copyright 1986-1999, 2001-2018 Xilinx, Inc. All Rights Reserved.
+Running: D:/vivado/Vivado/2018.2/bin/unwrapped/win64.o/xelab.exe -wto 954fc9ed652141d089dfa616fcf25e41 --incr --debug typical --relax --mt 2 -L xil_defaultlib -L secureip --snapshot Nano_Processor_tb_behav xil_defaultlib.Nano_Processor_tb -log elaborate.log 
+Using 2 slave threads.
+Starting static elaboration
+Completed static elaboration
+Starting simulation data flow analysis
+Completed simulation data flow analysis
+Time Resolution for simulation is 1ps
+Compiling package std.standard
+Compiling package std.textio
+Compiling package ieee.std_logic_1164
+Compiling package ieee.numeric_std
+Compiling architecture behavioral of entity xil_defaultlib.Slow_Clk [slow_clk_default]
+Compiling architecture behavioral of entity xil_defaultlib.Program_Counter_3bit [program_counter_3bit_default]
+Compiling architecture behavioral of entity xil_defaultlib.HA [ha_default]
+Compiling architecture behavioral of entity xil_defaultlib.FA [fa_default]
+Compiling architecture behavioral of entity xil_defaultlib.ADD_SUB [add_sub_default]
+Compiling architecture behavioral of entity xil_defaultlib.Bitwise_operator [bitwise_operator_default]
+Compiling architecture behavioral of entity xil_defaultlib.ALU [alu_default]
+Compiling architecture behavioral of entity xil_defaultlib.CLA_3bit [cla_3bit_default]
+Compiling architecture behavioral of entity xil_defaultlib.Mux2_3bit [mux2_3bit_default]
+Compiling architecture behavioral of entity xil_defaultlib.Program_ROM [program_rom_default]
+Compiling architecture behavioral of entity xil_defaultlib.Instruction_Decoder [instruction_decoder_default]
+Compiling architecture behavioral of entity xil_defaultlib.Decoder_3_TO_8 [decoder_3_to_8_default]
+Compiling architecture behavioral of entity xil_defaultlib.Reg_4_B [reg_4_b_default]
+Compiling architecture behavioral of entity xil_defaultlib.Register_Bank [register_bank_default]
+Compiling architecture behavioral of entity xil_defaultlib.Mux_8_W_4_B [mux_8_w_4_b_default]
+Compiling architecture behavioral of entity xil_defaultlib.w2_4_MUX [w2_4_mux_default]
+Compiling architecture behavioral of entity xil_defaultlib.LUT_16_7 [lut_16_7_default]
+Compiling architecture behavioral of entity xil_defaultlib.Nano_Processor [nano_processor_default]
+Compiling architecture behavioral of entity xil_defaultlib.nano_processor_tb
+Built simulation snapshot Nano_Processor_tb_behav

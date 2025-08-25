@@ -1,0 +1,28 @@
+# compile vhdl design source files
+vhdl xil_defaultlib  \
+"../../../../project_2.srcs/sources_1/imports/2_way_4_bit_MUX/2_4_MUX.vhd" \
+"../../../../project_2.srcs/sources_1/imports/4_bit_add_sub_unit/ADD_SUB.vhd" \
+"../../../../project_2.srcs/sources_1/new/ALU.vhd" \
+"../../../../project_2.srcs/sources_1/new/Bitwise_operator.vhd" \
+"../../../../project_2.srcs/sources_1/imports/3 Bit adder/CLA_3bit.vhd" \
+"../../../../project_2.srcs/sources_1/imports/Nano-Processor/3 to 8 Decoder/Decoder_3_to_8.vhd" \
+"../../../../project_2.srcs/sources_1/imports/3 Bit adder/FA.vhd" \
+"../../../../project_2.srcs/sources_1/imports/3 Bit adder/HA.vhd" \
+"../../../../project_2.srcs/sources_1/imports/new/Instruction_Decoder.vhd" \
+"../../../../project_2.srcs/sources_1/imports/7 segment display/LUT_16_7.vhd" \
+"../../../../project_2.srcs/sources_1/imports/8 way 4 bit Mux/MUX_8_W_4_B.vhd" \
+"../../../../project_2.srcs/sources_1/imports/2-way 3-bit Mux/Mux2_3bit.vhd" \
+"../../../../project_2.srcs/sources_1/imports/Nano-Processor/Nano processor.vhd" \
+"../../../../project_2.srcs/sources_1/imports/Program Counter/Program_Counter_3bit.vhd" \
+"../../../../project_2.srcs/sources_1/imports/new/Program_ROM.vhd" \
+"../../../../project_2.srcs/sources_1/imports/Nano-Processor/4 bit Register/Reg_4_B.vhd" \
+"../../../../project_2.srcs/sources_1/imports/Register Bank/Register_Bank.vhd" \
+
+vhdl2008 xil_defaultlib  \
+"../../../../project_2.srcs/sources_1/imports/slow clk/Slow_Clk.vhd" \
+
+vhdl xil_defaultlib  \
+"../../../../project_2.srcs/sim_1/new/Nano_Processor_tb.vhd" \
+
+# Do not sort compile order
+nosort

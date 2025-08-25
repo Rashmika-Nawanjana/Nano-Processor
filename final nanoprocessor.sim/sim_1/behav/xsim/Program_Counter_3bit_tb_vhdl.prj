@@ -1,0 +1,7 @@
+# compile vhdl design source files
+vhdl xil_defaultlib  \
+"../../../../Nano-Processor.srcs/sources_1/imports/Program Counter/Program_Counter_3bit.vhd" \
+"../../../../Nano-Processor.srcs/sim_1/new/Program_Counter_3bit_tb.vhd" \
+
+# Do not sort compile order
+nosort
