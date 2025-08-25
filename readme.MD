@@ -49,6 +49,8 @@ Seven Segment Display Decoder
 
 📸 Project Overview
 
+![alt text](image.png)
+
 🧑‍🤝‍🧑 Team Members
 
 This project was completed as part of a semester project with:
